@@ -219,9 +219,10 @@ p {
     margin: 0;
 }
 
+/* button animation */
 .btn:hover {
     width: 300px;
-    background-color: aqua;
+    background-color: lightsalmon;
 }
 
 /* body style part 4 */
