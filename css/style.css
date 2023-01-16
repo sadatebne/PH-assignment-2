@@ -113,15 +113,22 @@ p {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
 }
-
+.modules{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 .features-2 h3 {
+    margin: 0px;
     font-weight: 700;
     font-size: 45px;
+}
+.features-2 p{
+    margin-top: 20px;
 }
 
 .feature-img img {
     width: 500px;
-    height: 800px;
+    height: 850px;
 }
 
 .module-1 {
@@ -280,6 +287,9 @@ button {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
 
+}
+.feature-img img{
+    width: 100%;
 }
 
 .body-item-btn{
